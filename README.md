@@ -1,4 +1,4 @@
 # Proyecto-2
 Concesionaria - figma de la pagina
-https://www.canva.com/design/DAGDQtf9LYE/ZDQ6Ses6m6ikBuoUfZQZkQ/edit?utm_content=DAGDQtf9LYE&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
+https://www.figma.com/file/xu8M67Gidq5ZCLtT73g81D/Concesionaria?type=design&node-id=0-1&mode=design&t=CvP8YjQq2RtQ8ppY-0
 
