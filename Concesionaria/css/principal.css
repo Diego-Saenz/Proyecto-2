@@ -1,0 +1,280 @@
+* {
+    padding: 0%;
+    margin: 0%;
+}
+
+body {
+    font-family: baskervville;
+    background-color: rgb(64, 64, 64);
+    overflow-x: hidden;
+}
+
+header {
+    background: url(/img/principal/auto-principal.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 84.3rem;
+    height: 45rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.marca {
+    color: rgb(252, 237, 237);
+    font-size: 3.7rem;
+    font-family: "Archivo Black", sans-serif;
+}
+
+.nav {
+    z-index: 1;
+    background-color: rgb(217, 217, 217);
+    display: flex;
+    padding-right: 2rem;
+    position: fixed;
+    top: 1rem;
+    border-radius: 0px 25px 25px 0px;
+    box-shadow: 1px 1px 55px rgb(112, 106, 106);
+}
+
+.boton-nav {
+    background-color: transparent;
+    margin: 15px 25px;
+    border-color: transparent;
+    border-radius: 25px;
+    font-size: 1rem;
+    transition: box-shadow 0.3s ease;
+}
+
+.boton-nav:hover {
+    transform: scale(1.03);
+    filter: drop-shadow(0px 0px 8px rgba(8, 8, 8, 0.8))
+}
+
+.content {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 12rem 1fr;
+    margin: 0.5rem;
+    gap: 1rem;
+}
+
+.text-1 {
+    grid-row: 1/1;
+    grid-column: 3/4;
+    margin: 4rem 0rem 0rem 10rem;
+    font-size: 1.8rem;
+    color: rgb(252, 237, 237);
+    ;
+
+}
+
+.text-2 {
+    margin: 6.5rem 0rem 0rem 2rem;
+    font-size: 1.8rem;
+    color: rgb(252, 237, 237);
+    ;
+}
+
+.text-2-v {
+    font-size: 1.8rem;
+    color: rgb(252, 237, 237);
+}
+
+.tarjeta-1 {
+    grid-row: 2/3;
+    grid-column: 1/2;
+}
+
+.tarjeta-2 {
+    grid-row: 2/3;
+    grid-column: 2/3;
+}
+
+.tarjeta-3 {
+    grid-row: 2/3;
+    grid-column: 3/4;
+}
+
+.imagen-1-1 {
+    background-image: url(/img/principal/auto1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 11rem 7rem;
+    border-radius: 45px;
+    filter: drop-shadow(0px 0px 8px rgba(8, 8, 8, 0.8))
+}
+
+.imagen-2-1 {
+    background-image: url(/img/principal/auto-002.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 11rem 7rem;
+    border-radius: 45px;
+    filter: drop-shadow(0px 0px 8px rgba(8, 8, 8, 0.8))
+}
+
+.imagen-3-1 {
+    background-image: url(/img/principal/auto3.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 11rem 7rem;
+    border-radius: 45px;
+    filter: drop-shadow(0px 0px 8px rgba(8, 8, 8, 0.8))
+}
+
+.imagen-1-2 {
+    background-image: url(/img/principal/autos.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 6rem 7rem;
+    filter: drop-shadow(0px 0px 8px rgba(8, 8, 8, 0.8))
+}
+
+.imagen-2-2 {
+    background-image: url(/img/principal/camion_principal.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 6rem 7rem;
+    filter: drop-shadow(0px 0px 8px rgba(8, 8, 8, 0.8))
+}
+
+.imagen-3-2 {
+    background-image: url(/img/principal/vans_principal.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 6rem 7rem;
+    filter: drop-shadow(0px 0px 8px rgba(8, 8, 8, 0.8))
+}
+
+.descripcion1 {
+    background-color: rgb(217, 217, 217);
+    border-radius: 45px;
+    margin-top: 5px;
+    margin-bottom: 7rem;
+    padding: 2rem 0.8rem;
+    font-size: 18px;
+    display: block;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    filter: drop-shadow(0px 0px 8px rgba(8, 8, 8, 0.8))
+}
+
+.descripcion2 {
+    background-color: rgb(217, 217, 217);
+    border-radius: 45px;
+    margin-top: 5px;
+    margin-bottom: 7rem;
+    padding: 2rem 0.8rem;
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    filter: drop-shadow(0px 0px 8px rgba(8, 8, 8, 0.8))
+}
+
+
+
+.logos {
+    display: flex;
+    width: 100;
+    height: 10cap;
+}
+
+.footer {
+    background-color: rgb(217, 217, 217);
+    box-shadow: 0rem -2rem 2rem rgb(217, 217, 217);
+
+}
+
+.integrantes {
+    display: flex;
+}
+
+.nombre {
+    margin: 0px 60px;
+    font-size: 1.5rem;
+}
+
+.nombregrupo {
+    padding: 2rem 4rem 4rem 3rem;
+    font-size: 2rem;
+    display: flex;
+}
+
+.redes h3 {
+    padding: 3rem;
+    font-size: 1.8rem;
+}
+
+.logos {
+    display: flex;
+    margin: 0px 8rem;
+    justify-content: space-around;
+
+}
+
+.derechos {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+.descripcion1 #a {
+    font-weight: bold;
+    font-display: block;
+    padding-left: 200px;
+    font-size: 1.5em;
+
+}
+
+.descripcion1 #b {
+    font-weight: bold;
+    font-display: block;
+    padding-left: 250px;
+    font-size: 1.5em;
+
+}
+
+.descripcion1 #c {
+    font-weight: bold;
+    font-display: block;
+    padding-left: 220px;
+    font-size: 1.5em;
+
+}
+
+.descripcion1 #p1{
+    padding-left: 1rem;
+}
+
+.descripcion1 #p2{
+    padding-left: 10rem;
+}
+
+.descripcion1 #p3{
+    padding-left: 7rem;
+}
+
+.volver {
+    margin-left: 45%;
+    box-shadow: 0px 0px 10px black;
+    width: 10rem;
+    background-color: rgb(71, 68, 106);
+    border-radius: 5px;
+    height: 3rem;
+    font-size: 20px;
+    margin-top: 40px;
+
+}
+
+.volver:hover {
+    transform: scale(1.03);
+    filter: drop-shadow(0px 0px 8px rgba(8, 8, 8, 0.8))
+}
