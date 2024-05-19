@@ -1,2 +1,2 @@
-# Proyecto-2
+# Grupo 7
 Concesionaria
