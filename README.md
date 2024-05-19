@@ -1,3 +1,4 @@
-# Proyecto-2
+# Grupo 7
 Concesionaria
-Grupo 7: Alexis Aquevedo, Diego Saenz, Gonzalo Velasquez y Jairo carbajal
+<br>
+**Alexis Aquevedo, Diego Saenz, Gonzalo Velasquez y Jairo carbajal**
