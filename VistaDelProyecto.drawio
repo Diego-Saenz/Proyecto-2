@@ -1,0 +1,85 @@
+<mxfile host="Electron" modified="2024-05-20T03:43:38.072Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/23.1.5 Chrome/120.0.6099.109 Electron/28.1.0 Safari/537.36" etag="3Z_wBQ3xdCd1NnMJA3FV" version="23.1.5" type="device">
+  <diagram name="Página-1" id="J-umSqFAzPL7TSuIcYwZ">
+    <mxGraphModel dx="1535" dy="844" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="C8SKh8F4c9heLtaLyX9Q-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="C8SKh8F4c9heLtaLyX9Q-5" target="C8SKh8F4c9heLtaLyX9Q-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="C8SKh8F4c9heLtaLyX9Q-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="C8SKh8F4c9heLtaLyX9Q-5" target="C8SKh8F4c9heLtaLyX9Q-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="C8SKh8F4c9heLtaLyX9Q-5" value="&amp;nbsp; Paso 1: &lt;br&gt;Búsqueda&lt;br&gt;Del Auto" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="20" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="C8SKh8F4c9heLtaLyX9Q-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="C8SKh8F4c9heLtaLyX9Q-8" target="C8SKh8F4c9heLtaLyX9Q-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="C8SKh8F4c9heLtaLyX9Q-8" value="El usuario ingresa al sitio web o plataforma de venta de autos" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="120" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="C8SKh8F4c9heLtaLyX9Q-9" value="Puede navegar por las diferentes categorías de autos o ver autos destacados" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="280" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="C8SKh8F4c9heLtaLyX9Q-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="C8SKh8F4c9heLtaLyX9Q-11" target="C8SKh8F4c9heLtaLyX9Q-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="C8SKh8F4c9heLtaLyX9Q-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="C8SKh8F4c9heLtaLyX9Q-11" target="C8SKh8F4c9heLtaLyX9Q-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="C8SKh8F4c9heLtaLyX9Q-11" value="Paso 2:&lt;br&gt;Visualización Del&lt;br&gt;Auto" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="19" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="C8SKh8F4c9heLtaLyX9Q-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="C8SKh8F4c9heLtaLyX9Q-12" target="C8SKh8F4c9heLtaLyX9Q-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="C8SKh8F4c9heLtaLyX9Q-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="C8SKh8F4c9heLtaLyX9Q-12" target="C8SKh8F4c9heLtaLyX9Q-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="C8SKh8F4c9heLtaLyX9Q-12" value="Paso 3:&lt;br&gt;Contacto Con El&lt;br&gt;Vendedor" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="20" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="C8SKh8F4c9heLtaLyX9Q-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="C8SKh8F4c9heLtaLyX9Q-13" target="C8SKh8F4c9heLtaLyX9Q-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="C8SKh8F4c9heLtaLyX9Q-13" value="Paso 4:&lt;br&gt;Registro Y Entrega&lt;br&gt;Del Auto" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="20" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="C8SKh8F4c9heLtaLyX9Q-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="C8SKh8F4c9heLtaLyX9Q-14" target="C8SKh8F4c9heLtaLyX9Q-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="C8SKh8F4c9heLtaLyX9Q-14" value="El usuario selecciona un auto del listado" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="120" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="C8SKh8F4c9heLtaLyX9Q-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="C8SKh8F4c9heLtaLyX9Q-15" target="C8SKh8F4c9heLtaLyX9Q-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="C8SKh8F4c9heLtaLyX9Q-15" value="Si el usuario está interesado en el auto, puede contactar al vendedor a través de un formulario de contacto, un número de teléfono o un correo electrónico" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="120" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="C8SKh8F4c9heLtaLyX9Q-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="C8SKh8F4c9heLtaLyX9Q-16" target="C8SKh8F4c9heLtaLyX9Q-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="C8SKh8F4c9heLtaLyX9Q-16" value="Se registra la compra del auto" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="120" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="C8SKh8F4c9heLtaLyX9Q-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="C8SKh8F4c9heLtaLyX9Q-17" target="C8SKh8F4c9heLtaLyX9Q-44">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="C8SKh8F4c9heLtaLyX9Q-17" value="Se abre una página con información detallada sobre el auto, como fotos,descripción, características técnicas, precios, etc" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="280" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="C8SKh8F4c9heLtaLyX9Q-18" value="El vendedor puede responder a las preguntas del usuario y concertar una cita para ver el auto en persona" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="280" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="C8SKh8F4c9heLtaLyX9Q-19" value="Finalmente, el usuario recibe el auto y puede disfrutar de el" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="280" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="C8SKh8F4c9heLtaLyX9Q-44" value="El usuario puede leer las opiniones de otros usuarios sobre el auto" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="440" width="120" height="120" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
