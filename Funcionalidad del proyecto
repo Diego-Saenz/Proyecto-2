@@ -1,0 +1,62 @@
+Funcionalidad de el proyecto:
+
+La página está compuesta por 3 categorías:
+
+La categoría HOME. (Principal, Oferta, Fichas Técnicas, Preventa Exclusiva)
+La categoría SERVICIO.(SERVICIO 24HS, GARANTÍAS, REPUESTOS)
+La categoría VEHÍCULO.
+
+
+Categoría HOME (PRINCIPAL)
+
+En la parte principal, está la primera portada que aparecerá cuando una persona entre a la página, si bajamos abajo podremos ver novedades, como coches nuevos
+
+Categoría HOME (OFERTA)
+
+En Oferta, podremos descubrir ofertas, realizar consultas y buscar concesionarias.
+
+Categoría HOME (FICHAS TECNICAS)
+
+En Fichas técnicas, podremos ver las características del auto, osea la descripción del auto que nosotros queremos comprar, en este caso en nuestra concesionaria contamos con tipo Hatchback, tipo Sedan y tipo SUV.
+
+Categoría HOME (PREVENTA EXCLUSIVA)
+
+La preventa exclusiva del Mercedes-AMG SL 63 S E PERFORMANCE es una oferta especial para comprar este auto de lujo antes de su lanzamiento oficial. Participar en esta preventa significa que podes asegurarte tu vehículo con prioridad de entrega y posibles beneficios adicionales, como opciones de personalización o precios promocionales.
+
+Categoría SERVICIO (SERVICIO 24HS)
+
+La categoría de "Servicio 24HS" significa que la concesionaria ofrece asistencia las 24 horas del día, los 7 días de la semana. Esto puede incluir servicios de emergencia, asistencia en carretera y soporte técnico en cualquier momento del día o de la noche, asegurando que los clientes tengan apoyo constante sin importar la hora.
+
+Categoría SERVICIO (GARANTIAS)
+
+La sección de "Garantías" destaca las diferentes opciones de garantía disponibles para los vehículos vendidos en la concesionaria. Esto puede incluir la garantía estándar del fabricante, así como garantías extendidas que cubren componentes adicionales y ofrecen tranquilidad a los propietarios con respecto a la cobertura de reparaciones y mantenimiento durante un período específico.
+
+Categoría SERVICIO (REPUESTOS)
+
+En la categoría de "Repuesto", se enfoca en la disponibilidad de piezas y repuestos originales para los vehículos. La concesionaria asegura tener un stock adecuado de repuestos para realizar reparaciones y mantenimientos con piezas que cumplen con los estándares del fabricante, lo cual es crucial para mantener el rendimiento y la integridad del vehículo.
+
+Categoría VEHICULOS
+
+La sección de "Vehículos" en la página web de la concesionaria está diseñada para mostrar la gama de vehículos disponibles para la venta. Esta sección está organizada en diferentes categorías para facilitar la búsqueda y selección del tipo de vehículo que el cliente necesita.
+
+Autos:
+
+    - Esta subcategoría incluye autos destinados a uso personal y familiar. Estos vehículos suelen ser coches sedán, hatchbacks, y SUVs.
+   
+ - Cada modelo viene con una imagen y una breve descripción para que los clientes puedan ver rápidamente las características principales.
+
+Vans:
+
+    - La subcategoría de vans está orientada a vehículos más grandes, utilizados principalmente para transporte de personas o carga en ámbitos comerciales o de negocios.
+
+    -Cada VAN tiene una imagen y una descripción para destacar sus capacidades y usos.
+
+Camiones:
+
+    - Acá se incluyen camiones destinados al transporte de mercancías. Esta subcategoría es ideal para empresas que necesitan vehículos robustos para la logística y distribución.
+
+    - Se muestran imágenes de diferentes modelos de camiones junto con descripciones detalladas de sus especificaciones.
+
+Detalles de Vehículos:
+
+    - Además de las categorías, la sección también proporciona información más detallada sobre cada vehículo específico cuando se selecciona uno. Esto incluiría especificaciones técnicas, características de rendimiento, opciones de financiamiento y disponibilidad.
