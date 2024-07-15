@@ -1,0 +1,66 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+body{
+    background-color: #363636;
+    font-family: "Bentham", serif;
+}
+
+header{
+    background-image: url(/static/img/historia/header-hisoria.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    border-radius: 10px;
+}
+
+main{
+    background-image: url(/static/img/historia/main-hisporia.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.cabeza{
+    margin: 0rem 0rem 15rem 30rem;
+}
+
+.wazin{
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+    margin-bottom: 5rem;
+}
+
+.mercedes1{
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+}
+
+.mercedes2{
+    margin-bottom: 3rem;
+}
+
+.mercedes3{
+    margin-bottom: 3rem;
+}
+
+.ultim{
+    padding-top: 1rem;
+}
+
+.text1{
+    padding-bottom: 2rem;
+}
+
+.text2{
+    padding-bottom: 2rem;
+}
+

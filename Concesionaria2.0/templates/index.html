@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <title>Document</title>
+</head>
+<body>
+    <h1 class="text-center mt-5 mb-5 text-primary">Gestor de Concesionaria</h1>
+
+    <div class="container">
+        <div class="card shadow">
+            <div class="card-body">
+                <form action="" method="POST">
+                    <div class="row mb-3">
+                        <div class="col">
+                            <label>Modelo</label>
+                            <input type="text" class="form-control mb-3" name="Modelo">
+                        </div>
+                        <div class="col">
+                            <label>Codigo</label>
+                            <input type="text" class="form-control mb-3" name="Codigo">
+                        </div>
+                        <div class="col">
+                            <label for="itemDropdown">Tipo</label>
+                            <select class="form-control" id="itemDropdown" name="Tipo">
+                                <option value="1">Auto</option>
+                                <option value="2">Camion</option>
+                                <option value="3">Van</option>
+                            </select>
+                        </div>
+                        <div class="col">
+                            <label>Precio</label>
+                            <input type="number" class="form-control mb-3" name="Precio">
+                        </div>
+                        <div class="col">
+                            <label>Año</label>
+                            <input type="number" class="form-control mb-3" name="Año">
+                        </div>
+                        <div class="col">
+                            <label>Imagen</label>
+                            <input type="url" class="form-control mb-3" name="Imagen">
+                        </div>
+                        <div class="col">
+                            <button class="btn btn-primary mb-3 mt-4" type="submit">Save</button>
+                        </div>
+                    </div>
+                </form>
+
+                <!-- Tabla -->
+                <table class="table table-bordered">
+                    <thead>
+                        <th scope="col">#</th>
+                        <th scope="col">Modelo</th>
+                        <th scope="col">Tipo</th>
+                        <th scope="col">Precio</th>
+                        <th scope="col">Año</th>
+                        <th scope="col">Imagen</th>              
+                        <th scope="col">Eliminar</th>              
+                        <th scope="col">Edit</th>              
+                    </thead>
+                    <tbody>
+                        {% for d in dato %}
+                            <tr>
+                                <td>{{d.codigo}}</td>
+                                <td>{{d.modelo}}</td>
+                                <td>{{d.tipo}}</td>
+                                <td>{{d.precio}}</td>
+                                <td>{{d.año}}</td>
+                                <td>
+                                    <img src="{{d.imagen}}" style="max-width: 100px;">
+
+                                </td>
+                                <td><button class="btn btn-primary btn-sm" id="">Edit</button></td>
+                                <td><a href="#" class="btn btn-danger btn-sm">Eliminar</a></td>
+                            </tr>
+                        {% endfor %}
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
