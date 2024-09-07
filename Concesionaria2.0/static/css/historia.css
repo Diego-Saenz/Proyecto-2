@@ -9,16 +9,19 @@ body{
 }
 
 header{
-    background-image: url(/static/img/historia/header-hisoria.png);
+    background-image: url(../img/historia/header-hisoria.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     height: 100vh;
     border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
 }
 
 main{
-    background-image: url(/static/img/historia/main-hisporia.png);
+    background-image: url(../img/historia/main-hisporia.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -29,7 +32,8 @@ main{
 }
 
 .cabeza{
-    margin: 0rem 0rem 15rem 30rem;
+    margin: 0rem 0rem 15rem 20rem;
+    font-size: 3rem;
 }
 
 .wazin{
@@ -37,6 +41,7 @@ main{
     flex-direction: column;
     margin-top: 2rem;
     margin-bottom: 5rem;
+    background-color: rgb(193, 198, 200);
 }
 
 .mercedes1{
@@ -64,3 +69,33 @@ main{
     padding-bottom: 2rem;
 }
 
+.Titulo2-main{
+    display: flex;
+    margin: 0rem 0rem 0rem 20rem;
+}
+
+.main2{
+    margin: 1rem 2rem 0rem 2rem;
+    background-color: rgb(144, 164, 174);
+    border-radius: 2rem;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.ni{
+    margin-top: 1rem;
+}
+
+.main-Texto1{
+    margin: 0rem 20rem 0rem 0rem;
+}
+
+.main-Texto2{
+    margin: 0rem 0rem 0rem 29rem;
+}
+
+.main-Texto3{
+    margin: 1rem 50rem 0rem 0rem;
+}
