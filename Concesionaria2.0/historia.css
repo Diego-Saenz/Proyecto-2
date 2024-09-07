@@ -1,0 +1,183 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+body{
+    background-color: #363636;
+    font-family: "Bentham", serif;
+}
+
+header{
+    background-image: url(../img/historia/header-hisoria.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+main{
+    background-image: url(../img/historia/main-hisporia.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.Titulo-main{
+    margin: 0rem 0rem 0rem 20rem;
+}
+
+.cabeza{
+    margin: 5rem 0rem 15rem 20rem;
+    font-size: 3rem;
+}
+
+.wazin{
+    display: grid;
+    grid-template-columns:20fr;
+    grid-template-rows: 10fr;
+    gap: 10px;
+    background-color: rgb(193, 198, 200);
+}
+
+.titulo-wazin{
+    display: flex;
+    margin-top: 3rem;
+    margin-left: 20rem;
+    margin-bottom: 2rem;
+}
+
+.mercedes1{
+    margin-bottom: 3rem;
+    background-color: rgb(144, 164, 174);
+    margin-left: 50rem;
+    border-radius: 2rem;
+    height: 25vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    top: -15rem;
+}
+
+.img-mercedes1{
+    height: 40vh;
+    margin: 0rem 0rem 0rem 0rem;
+    border-radius: 2rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.mercedes2{
+    margin-bottom: 3rem;
+    background-color: rgb(144, 164, 174);
+    margin-right: 50rem;
+    border-radius: 2rem;
+    height: 25vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    top: -15rem;
+}
+
+.img-mercedes2{
+    margin: 0rem 0rem 0rem 40rem;
+    border-radius: 2rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.mercedes3{
+    background-color: rgb(144, 164, 174);
+    margin-left: 50rem;
+    border-radius: 2rem;
+    height: 25vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    top: -15rem;
+}
+
+.img-mercedes3{
+    margin: 0rem 0rem 0rem 0rem;
+    position: relative;
+    display: flex;
+    border-radius: 2rem;
+}
+
+.ultim{
+    padding-top: 1rem;
+}
+
+.ultim2{
+    position: relative;
+    top: -12rem;
+}
+
+.ultim2-2{
+    position: relative;
+    top: -12rem;
+}
+
+.text1{
+    padding-bottom: 2rem;
+}
+
+.text2{
+    padding-bottom: 2rem;
+}
+
+.main2{
+    margin: 1rem 2rem 0rem 2rem;
+    background-color: rgb(144, 164, 174);
+    border-radius: 2rem;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.Titulo2-main{
+    display: flex;
+    margin: 0rem 0rem 0rem 20rem;
+}
+
+.ni{
+    margin-top: 1rem;
+}
+
+.main-Texto1{
+    margin: 0rem 20rem 0rem 0rem;
+    position: relative;
+    top: -5rem;
+}
+
+.main-Texto2{
+    margin: 0rem 0rem 0rem 29rem;
+    position: relative;
+    top: -5rem;
+}
+
+.main-Texto3{
+    margin: 1rem 50rem 0rem 0rem;
+    position: relative;
+    top: -5rem;
+}
+
+.Texto1{
+    margin: 0rem 10rem 0rem 1rem;
+    font-size: 1.5rem;
+}
+
+.Texto2{
+    font-size: 0rem 0rem 0rem 0rem;
+}
