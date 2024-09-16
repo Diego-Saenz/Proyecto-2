@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="/static/css/repuesto.css">
+    <link rel="stylesheet" href="/static/css/Footer.css">
+    <link rel="stylesheet" href="/static/css/nav.css">
+    <title>Repuesto</title>
+</head>
+<body>
+    <!--NAVBAR-->
+    <div class="nav">
+        <a href="/templates/principal.html">
+            <img src="/static/img/logo.png" width="135">
+        </a>
+        <div class="nav-item">
+            <div class="nav-servicio">
+                <button class="boton-nav">Servicio</button>
+                <div class="dropdown-content">
+                    <a href="/templates/servicios/garantia.html">Garantias</a>
+                    <a href="/templates/servicios/repuesto.html">Repuestos</a>
+                    <a href="/templates/servicios/servicio_24h.html">Servicio 24H</a>
+                </div>
+            </div>
+            <div class="nav-servicio">
+                <button class="boton-nav">Asesoramiento</button>
+                <div class="dropdown-content">
+                    <a href="/templates/asesoramiento/Fichas-Tecnicas.html">Fichas-Tecnicas</a>
+                    <a href="/templates/asesoramiento/oferta.html">Oferta</a>
+                    <a href="/templates/asesoramiento/Preventa-Exclusiva.html">Preventa-Exclusiva</a>
+                </div>
+            </div>
+            <button class="boton-nav">Vehículos</button><!--proximamente-->
+            <button class="boton-nav" onclick="location.href='/templates/historia.html'">Historia</button>
+        </div>
+    </div>
+
+    <section class="header" id="Inicio_Repuesto">
+        <h1 class="titulo">Repuesto <br>Mercedes-Benz</h1>
+    </section>
+    <div class="encabezado">
+        <h2>El repuesto adecuado para cada Mercedes-Benz.</h2>
+        <p>Tanto si necesitás un repuesto para tu Mercedes-Benz de siempre o piezas para el mantenimiento de tu vehículo nuevo. En la extensa cartera de Mercedes-Benz encontrarás la opción adecuada para cada vehículo y para cada presupuesto. Como es natural, podés estar seguro de que todos los artículos de cada una de nuestras líneas satisfacen nuestras severas exigencias.</p>
+    </div>
+    <section class="body-grid">
+        <img src="/static/img/servicio/repuesto/body-1.png" width="83%" class="img-body">
+        <div class="tarjeta-1">
+            <h2 style="padding: 1rem;">Tan nuevos como las piezas originales</h2>
+            <p>¿Utilizar únicamente piezas nuevas certificadas en tu Mercedes-Benz 
+                cuando hay que realizar el mantenimiento o si es necesario sustituir piezas de desgaste? En ese caso, te recomendamos utilizar repuestos originales Mercedes-Benz.
+                <br>
+                Estos repuestos están respaldados por el know-how de Mercedes-Benz como fabricante, se desarrollan específicamente para tu modelo y se adaptan a la perfección a los demás componentes del vehículo.</p>
+            <h3 style="padding: 0.5rem;">Todas las ventajas, en síntesis:</h3>
+            <ul style="margin-left: 2rem;" class="lista">
+                <li>
+                    Calidad, precisión y durabilidad excelentes.
+                </li>
+                <li>
+                    Probados según los estrictos requisitos de Mercedes-Benz en materia de seguridad y fiabilidad.
+                </li>
+                <li>
+                    Desarrollados especialmente para cada modelo de vehículo.
+                </li>
+                <li>
+                    Disponibilidad prácticamente inmediata en todo el mundo.
+                </li>
+            </ul>    
+            <p>Para más información sobre repuestos originales Mercedes-Benz, ponte en contacto con tu taller autorizado Mercedes-Benz más cercano.</p>        
+        </div>
+        <div class="tarjeta-2">
+            <h2 style="padding: 2rem;">Aspecto asombrosamente auténtico: cuidado con las imitaciones</h2>
+            <p>Tu taller autorizado Mercedes-Benz te protege ante los plagios. Porque, aunque en el embalaje figure el nombre Mercedes-Benz, esto no es garantía de que contenga un producto Mercedes-Benz. Los falsificadores de productos se especializan cada vez más en la falsificación de repuestos para vehículos. Es cada vez más frecuente que se copien componentes relevantes para la seguridad como discos y pastillas de freno, limpiaparabrisas, parabrisas, piezas del tren de rodaje o filtros. Con frecuencia, las imitaciones presentan un aspecto asombrosamente auténtico y son casi imposibles de distinguir a primera vista, incluso a los ojos de un especialista.</p>
+        </div>
+        <img src="/static/img/servicio/repuesto/body-2.png" width="80%" class="img-body" >
+    </section>
+
+    <!--FOOTER-->
+    <footer>
+        <div class="footer">
+            <div>
+                <button style="background-color:rgb(71, 68, 106);" class="volver" onclick="location.href='#Inicio_Repuesto'">
+                    Volver arriba
+                </button>
+            </div>
+            <div class="nombregrupo">
+                <h3>Grupo 7</h3>
+            </div>
+
+            <div class="integrantes">
+                <div class="nombre">
+                    <h3>Aquevedo Alexis </h3>
+                </div>
+                <div class="nombre">
+                    <h3>Carbajal Jairo</h3>
+                </div>
+                <div class="nombre">
+                    <h3>Sáenz Diego</h3>
+                </div>
+                <div class="nombre">
+                    <h3>Velásquez Gonzalo</h3>
+                </div>
+            </div>
+            <div class="redes">
+                <div class="logos">
+                    <img src="/static/img/footer/x.png" width="90rem" height="60rem">
+                    <img src="/static/img/footer/facebook.png" alt="Facebook" width="60rem" height="60rem">
+                    <img src="/static/img/footer/instagram_log.png" alt="Instagram" width="75rem" height="75rem">
+                    <img src="/static/img/footer/youtube_logo_icon_214667.png" alt="YouTube" width="75rem" height="75rem">
+                </div>
+                <div class="derechos">
+                    <div>
+                        <img src="/static/img/footer/COPY.png" alt="">
+                    </div>
+                    <h3>Escuela Técnica N°32 General José De San Martín</h3>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

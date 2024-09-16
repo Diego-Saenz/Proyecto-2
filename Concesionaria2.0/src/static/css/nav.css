@@ -1,0 +1,67 @@
+.nav {
+  z-index: 1;
+  background-color: rgb(217, 217, 217);
+  display: flex;
+  padding-right: 2rem;
+  position: fixed;
+  top: 1rem;
+  border-radius: 0px 25px 25px 0px;
+  box-shadow: 1px 1px 55px rgb(112, 106, 106);
+}
+.boton-nav {
+  background-color: transparent;
+  margin: 15px 25px;
+  border-color: transparent;
+  border-radius: 25px;
+  font-size: 1rem;
+  transition: box-shadow 0.5s ease;
+
+  cursor: pointer;
+}
+
+.boton-nav:hover {
+  transform: scale(1.03);
+  filter: drop-shadow(0px 0px 8px rgba(8, 8, 8, 0.8));
+}
+
+.nav-item{
+    display: flex;
+}
+
+
+/* Estilo para el botón "Servicio" */
+.nav-servicio {
+  position: relative;
+  cursor: pointer;
+  padding: 8px 12px;
+  background-color: transparent;
+  border: none;
+  color: white;
+  outline: none;
+}
+
+/* Estilo para la lista desplegable */
+.dropdown-content{
+  display: none;
+  position: absolute;
+  background-color: rgb(217, 217, 217);
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  border-radius: 10px;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #f1f1f1;
+  border-radius: 10px;
+}
+.nav-servicio:hover .dropdown-content {
+  display: block;
+}
