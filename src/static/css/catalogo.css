@@ -1,0 +1,87 @@
+*{
+    margin: 0%;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(54, 54, 54);
+}
+.header_catalogo{
+    background-image: url(/static/img/vehiculos/header_catalgo.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+}
+
+.titulo{
+    font-size: 3.2rem;
+    margin-top: 10rem;
+    margin-left: 10rem;
+}
+
+
+.seccion{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+}
+.tarjeta{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 4rem;
+}
+
+.imagen{
+    height: 32vh;
+    border-radius: 50px;
+    max-height: 35vh;
+}
+
+.text{
+    margin: 0.5rem;
+    padding: 0rem 4rem;
+    background-color: #2B8248;
+    border-radius: 50px;
+    font-size: 1.4rem ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
+
+.b-c{
+    margin:1rem;
+    padding: 0.5rem 5rem;
+    border-radius: 50px;
+    background-color: #5ECA54;
+    border: 0;
+    font-size: 1.4rem;
+    transition: 0.3s ease;
+    cursor: pointer;
+}
+
+#sub{
+    margin: 3rem;
+    color: white;
+    font-size: 3rem;
+}
+
+.Van button{
+    background-color: #D76767;
+}
+.Van .text{
+    background-color: #773F3F;    
+}
+.camion button{
+    background-color: #6656C9;
+}
+.camion .text{
+    background-color: #3F3F77;
+}
+
+.b-c:hover{
+    box-shadow: 0px 0px 10px 2px white;
+}

@@ -1,0 +1,76 @@
+* {
+    padding: 0%;
+    margin: 0%;
+}
+
+body {
+    background-color: rgb(54, 54, 54);
+    font-family: Baskerville;
+    overflow-x: hidden;
+}
+
+header {
+
+    background-image: url(/static/img/servicio/servicio_24H/header_24h.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 90rem;
+    height: 45rem;
+}
+
+
+.titulo {
+    padding: 12rem;
+    margin-left: -7rem;
+    font-size: 55px;
+    color: rgb(245, 245, 245);
+}
+
+section {
+    display: flex;
+
+}
+
+.texto_24hs {
+    background-color: rgb(217, 217, 217);
+    border-radius: 10px;
+    margin: 3.5rem 3rem 2rem 3rem;
+
+}
+
+.titulo-servicio {
+    margin: 2rem;
+    font-size: 2.2rem;
+}
+
+.parrafo-servicio {
+    margin: 1.3rem;
+}
+
+.lista-servicio {
+    margin: 4rem;
+}
+
+.imagen_24h {
+    border-radius: 10px;
+
+}
+
+
+footer {
+    margin-top: 11rem;
+}
+
+
+.img-header {
+    height: 300px;
+    width: 400px;
+}
+
+.texto-principal {
+    color: black;
+    font-size: 3.7rem;
+    font-family: "Archivo Black", sans-serif;
+    padding-top: 5rem;
+}

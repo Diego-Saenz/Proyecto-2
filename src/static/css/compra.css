@@ -1,0 +1,106 @@
+*{
+    margin: 0%;
+    padding: 0;
+}
+
+body{
+    background-image: url(/static/img/vehiculos/fondo_compra.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+header{
+    font-size: 2rem;
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 2rem;
+}
+
+.Title{
+    font-size: 2rem;
+    color: aliceblue;
+    text-align: center;
+}
+
+.Title2{
+    font-size: 2rem;
+    color: aliceblue;
+    text-align: center;
+}
+
+.Contenedor1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem; 
+}
+
+.Contenedor2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem; 
+    margin-bottom: 5rem;
+}
+
+.Contenedor3{
+    color: aliceblue;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 3rem;
+    margin-left: 5rem;
+}
+
+.items{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 5rem;
+}
+
+.item-aparte{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: aliceblue;
+    margin-right: 7rem;
+    margin-top: 5rem;
+    margin-left: 6.5rem;
+}
+
+.date{
+    color: aliceblue;
+    margin-left: 3rem;
+}
+
+.cancelar{
+    margin-top: 5rem;
+    margin-left: 10rem;
+    margin-bottom: 5rem;
+    color: aliceblue;
+    border: 0cap;
+    transition: 0.3s ease;
+    border-radius: 5rem;
+    height: 2rem;
+    font-size: 20px;
+    width: 10rem;
+    background-color: crimson;
+}
+
+.confirmar{
+    margin-top: 5rem;
+    margin-left: 44rem;
+    color: aliceblue;
+    border: 0cap;
+    transition: 0.3s ease;
+    border-radius: 5rem;
+    height: 2rem;
+    font-size: 20px;
+    width: 10rem;
+    background-color: green;
+}
